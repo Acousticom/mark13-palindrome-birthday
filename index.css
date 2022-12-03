@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #7c3aed;
+}
+
+.container{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#bday-input{
+    display: block;
+    margin: auto;
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    width: 15%;
+}
+
+#show-btn{
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 2rem;
+}
